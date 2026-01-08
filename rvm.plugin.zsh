@@ -1,11 +1,8 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
 # Plugin Name: rvm
+# Description: Zsh plugin to set RVM environment variables.
 # Repository: https://github.com/johnstonskj/zsh-rvm-plugin
-#
-# Description:
-#
-#   Zsh plugin to set RVM environment variables.
 #
 # Public variables:
 #
@@ -13,6 +10,7 @@
 #   * `_ALIASES`; a list of all aliases defined by the plugin.
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
+#   * `_OLD_HOME`; the previous value of the `RVM_HOME` environment variable.
 # * `RVM_HOME`; the home directory for RVM.
 #
 
