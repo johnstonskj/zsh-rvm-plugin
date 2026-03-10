@@ -1,8 +1,10 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: rvm
-# Description: Zsh plugin to set RVM environment variables.
-# Repository: https://github.com/johnstonskj/zsh-rvm-plugin
+# @name: rvm
+# @brief: Setup for the `rvm` package manager.
+# @repository: https://github.com/johnstonskj/zsh-rvm-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
 #
 # Public variables:
 #
