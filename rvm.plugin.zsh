@@ -20,7 +20,7 @@ rvm_plugin_init() {
     builtin emulate -L zsh
 
     @zplugins_envvar_save rvm RVM_HOME
-    export RVM_HOME="${RVM_HOME:-${HOME}/.rvm}"
+    typeset -g RVM_HOME="${RVM_HOME:-${HOME}/.rvm}"
 
     @zplugins_add_to_path rvm "${RVM_HOME}/bin"
 }
